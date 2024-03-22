@@ -1,0 +1,117 @@
+.main{
+  background-image: url("/public/to-do.jpg");
+  height: 130vh;
+  background-size: cover;
+}
+
+#userlogin{
+  width: 450px;
+  height: 585px;
+  background-color: #fdfdfd;
+  border-radius: 20px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+#registerlogin{
+  width: 350px;
+  height: 340px;
+  background-color: #ebfeff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  /* #defdb9 */
+}
+.title{
+  color: rgb(3, 131, 200);
+}
+.p{
+  font-size: 24px;
+  color: rgb(8, 129, 109);
+}
+.rh1{
+  color: rgb(116, 116, 5);
+}
+.uh1{
+  color: #2b638e;
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+}
+.add #b1{
+  margin-top: 20px;
+  padding: 11px 24px;
+  background-color: black;
+  z-index: -1px;
+  color: #ebfeff;
+ 
+  transition: 1s all ease-in-out;
+}
+.add #b1:hover{
+  padding: 11px 24px;
+  background-color: #798006;
+  color: #ebfeff;
+  
+}
+*{
+  margin: 0px ;
+  padding: 0px;
+}
+.userdashbord-section{
+  padding-top: 70px;
+  background-color: #f7f7f7;
+  height: 130vh;
+}
+.content{
+  margin-top: 90px;
+  width: 100%;
+  height: 110vh;
+  padding: 10px ;
+}
+.content .de{
+  font-size: 21px;
+  color: #137e05;
+  font-weight: 500;
+}
+.pop-title .h2{
+  font-size: 35px;
+  color: rgb(3, 47, 85);
+  font-weight: bold;
+}
+.pop  dd{
+  margin-bottom: 10px;
+}
+.pop td{
+  color: #2b638e;
+  font-size: 20px;
+  font-weight: bold;
+}
+.pop-icon {
+  cursor: pointer;
+  color: rgb(149, 5, 5);
+}
+.content .bi-trash{
+  font-size: 25px;
+  margin-right: -30px;
+  font-weight: bolder;
+}
+.content h3{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.logout:hover{
+  color: red;
+}
+.profile{
+  color: #137e05;
+}
+
+.img img{
+  border-radius: 50%;
+  width: 190px;
+  height: 210px;
+}
+.userde h5{
+  margin-bottom: 12px ;
+  color: #2b638e;
+}
+
